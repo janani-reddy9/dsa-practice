@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/valid-palindrome/description/
+
 def isPalindrome(s):
     out = ""
     for i in range(0, len(s)):
