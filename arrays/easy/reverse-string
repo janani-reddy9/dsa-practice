@@ -1,0 +1,17 @@
+"""
+https://leetcode.com/problems/reverse-string/description/
+"""
+
+
+def reverseString(s):
+    """
+      :type s: List[str]
+      :rtype: None Do not return anything, modify s in-place instead.
+    """
+    slen = len(s)
+    for i in range(0, slen/2):
+        s[i], s[slen-i-1] = s[slen-i-1], s[i]
+    s
+
+println(reverseString(["h","e","l","l","o"]))
+
